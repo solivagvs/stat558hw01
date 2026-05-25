@@ -1,0 +1,39 @@
+---
+title: "Data Science Document"
+author: "Bryan Sandor"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+# Answers to questions
+
+- I think being a data scientist marries disciplines (and whichever subdiscipline(s) to which it applies) and statistics in order to make predictions about the population.
+
+- I think a statistician must be versatile enough to work across a variety of fields to consider themself a data scientist.
+
+- As someone with a background in mathematics, statistics, and computer science, I feel this area is very relevant to my studies.
+
+# Code Sample
+
+First we run the instructed code:
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Then we run code to examine the format of `y`
+
+```{r}
+class(y)
+typeof(y)
+structure(y)
+```
+
+Finally, we plot the graph of `y`
+
+```{r}
+#| echo: false
+plot(y)
+```
