@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "dataScienceDocument.html",
+    "href": "dataScienceDocument.html",
+    "title": "Data Science Document",
+    "section": "",
+    "text": "Answers to questions\n\nI think being a data scientist is about communicating analyses of data to a variety of disciplines with no assumptions regarding statistical background.\nMy initial understanding of a statistician is more in line with what I think of as a data scientist, so I think more generally a statistician develops algorithms and methods that are then used by data scientists, eg. LASSO, Bayesian inference, etc. In this respect, I think every data scientist is a(n applied) statistician, but not vice-versa.\nGiven what I’ve read in this week’s materials, I think I am more akin to a data scientist than a statistician, despite my strong mathematics background. I am more interested in the interpretation of results than finding or strengthening new or existing methods.\n\n\n\nCode Sample\nFirst we run the instructed code:\n\ny &lt;- density(iris$Petal.Width)\n\nThen we run code to examine the format of y\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstructure(y)\n\n\nCall:\n    density.default(x = iris$Petal.Width)\n\nData: iris$Petal.Width (150 obs.);  Bandwidth 'bw' = 0.2518\n\n       x                 y            \n Min.   :-0.6555   Min.   :0.0005219  \n 1st Qu.: 0.3222   1st Qu.:0.0830968  \n Median : 1.3000   Median :0.2650517  \n Mean   : 1.3000   Mean   :0.2551522  \n 3rd Qu.: 2.2778   3rd Qu.:0.4190136  \n Max.   : 3.2555   Max.   :0.4975026  \n\n\nFinally, we plot the graph of y"
+  }
+]
