@@ -2,7 +2,7 @@
 title: "Data Science Document"
 author: "Bryan Sandor"
 format: html
-editor: visual
+editor: source
 editor_options: 
   chunk_output_type: console
 ---
